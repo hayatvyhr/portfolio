@@ -118,6 +118,12 @@ transition: 0.7s ease;
 
 
 }
+.cisco-logo {
+  background-image: url('path/to/cisco_logo.png');
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
 .card:hover{
 transform: scale(1.1, 1.1);}
 .icon{
@@ -199,13 +205,7 @@ project-category{
     display: flex;
     justify-content: space-between;
   }
-  .footer-title {
-  font-size: 1.4em;
-  font-weight: 500;
-    }
-  .footer-title span{
-    color:red;
-  }
+
   .footer .social-icons{
     font-size: 2em;
     padding: 0 12px 0 0;
