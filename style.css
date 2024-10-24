@@ -145,8 +145,7 @@ section
   display: inline-block;
   animation: wavev2 2s infinite;
   transform-origin: 10% 10%;
- width: "400px";
- hight : "400px";
+
 }
 @keyframes typing {
   from { width: 0; }
