@@ -134,13 +134,7 @@ section
   60% { transform: rotate(-25deg); }
   80% { transform: rotate(10deg); }
 }
-@keyframes wavev2 {
-  0%, 100% { transform: rotate(0deg); }
-  20% { transform: rotate(-2deg); }
-  40% { transform: rotate(2deg); }
-  60% { transform: rotate(-2deg); }
-  80% { transform: rotate(2deg); }
-}
+
 
 .wave {
   display: inline-block;
@@ -151,6 +145,8 @@ section
   display: inline-block;
   animation: wavev2 2s infinite;
   transform-origin: 10% 10%;
+ width: "400px";
+ hight : "400px";
 }
 @keyframes typing {
   from { width: 0; }
